@@ -1,0 +1,101 @@
+/* GLOBAL */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* CONTAINER */
+.container {
+    width: 85%;
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* HEADER */
+header {
+    background: #1a1f2b;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 38px;
+    letter-spacing: 2px;
+}
+
+header h3 {
+    font-weight: 400;
+    margin-top: 10px;
+    opacity: 0.9;
+}
+
+.contact {
+    margin-top: 20px;
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+/* SECTIONS */
+section {
+    margin: 50px 0;
+}
+
+h2 {
+    color: #1a1f2b;
+    border-left: 5px solid #1a1f2b;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+/* CARD STYLE */
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+/* SKILLS */
+.skills span {
+    display: inline-block;
+    background: #1a1f2b;
+    color: white;
+    padding: 8px 15px;
+    margin: 6px 6px 0 0;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+/* EDUCATION LIST */
+ul {
+    padding-left: 20px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #1a1f2b;
+    color: white;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+}
